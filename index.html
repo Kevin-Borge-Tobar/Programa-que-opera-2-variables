@@ -10,18 +10,16 @@
 <body>
         <h1>Operaciones Básicas con 2 Variables </h1>
         <p>Tienes que ingresar los valores a operar en los espacios designados.</p>
-        <th></th>
         <!--Se establecieron los campos en los cuales se introducirán los valores a operar-->
         <label for="valor1"> Ingrese la primera Cantidad</label>
         <input type="number" step="any" id="valor1" name="valor1">
         <label for="valor2"> Ingrese la segunda  Cantidad</label>
         <input type="number " step="any" id="valor2" name="valor2">
-        <th></th>
         <!--Se crearon los botones que realizarán las operaciones-->
-        <button>Sumar</button>
-        <button>Restar</button>
-        <button>Dividir</button>
-        <button>Multiplicar</button>
+        <button onclick="sum()">Sumar</button>
+        <button onclick="subt()">Restar</button>
+        <button onclick="div()">Dividir</button>
+        <button onclick="mult()">Multiplicar</button>
         <!--Se creo el campo que mostrará el resultado de las diferentes funciones-->
         <label for="resultado">El resultado es:</label>
         <input type="number" step="any" id="resultado" name="resultado">
