@@ -1,5 +1,4 @@
 'use strict'
-alert(ESTAS A PUNTO DE ABANDONAR TU PAGINA ACTUAL);
 function sum(){
     /* se capturaron los valores de las dos variables a operar para poder analizar su contenido*/           
     var valor1 = document.getElementById("valor1").value; 
@@ -33,7 +32,7 @@ function sum(){
     document.getElementById("resultado").value = resultado;
   }
 
-
+'use strict'
   function div(){
     /* se capturaron los valores de las dos variables a operar para poder analizar su contenido*/ 
     var valor1 = document.getElementById("valor1").value; 
@@ -68,6 +67,5 @@ function sum(){
   }    
   /* Cada una de estas fuciones se ejecutarán  al momento de hacer click en los diferentes botones y,
   cada boton  tendra una función especifica, para mostrar el resultado de de la funcion establecida.
-  Y guardarán su resultado en una variable, y este se mostrará al usuario. Como su respuesta.
-  */
+  Y guardarán su resultado en una variable, y este se mostrará al usuario. Como su respuesta.*/
  

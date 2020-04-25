@@ -8,6 +8,7 @@
     </title>
 </head>
 <body>
+<form>
         <h1>Operaciones Básicas con 2 Variables </h1>
         <p>Tienes que ingresar los valores a operar en los espacios designados.</p>
         <!--Se establecieron los campos en los cuales se introducirán los valores a operar-->
@@ -15,6 +16,8 @@
         <input type="number" step="any" id="valor1" name="valor1">
         <label for="valor2"> Ingrese la segunda  Cantidad</label>
         <input type="number " step="any" id="valor2" name="valor2">
+        <button onclick="Limpiar();">EMILINAR DATOS</button>
+    </form>
         <!--Se crearon los botones que realizarán las operaciones-->
 
         <button onclick="sum()">Sumar</button> <!--se agregaron las funciones a cada uno de los botones-->
@@ -24,6 +27,7 @@
         <!--Se creo el campo que mostrará el resultado de las diferentes funciones-->
         <label for="resultado">El resultado es:</label>
         <input type="number" step="any" id="resultado" name="resultado">
-    </form>
+
+
 </body>
 </html>
